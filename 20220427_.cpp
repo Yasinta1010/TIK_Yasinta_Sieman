@@ -1,4 +1,7 @@
-{
+#include <iostream>
+using namespace std;
+float number1,number2,number3,number4,number5;
+int main() {
     int number1 = 0;
     while (number1++ <10){
     cout<<"1"<<"*" <<number1<<"="<<number1*1<<endl;
@@ -49,8 +52,6 @@
     int number10 = 0;
     while (number10 ++ <10){ //perulangan turun
      cout<<"10"<<"*" <<number10<<"="<<number10*10<<endl;
-    }
     return 0;
-    
     
 }
